@@ -12,7 +12,7 @@ function render(data) {
     var html = data.map(function (message, index) {
         return (`
         <div class="message">
-<strong>${message.nickname}</strong> dice:
+<strong>${message.nickname}</strong> says:
  <p>${message.text}</p>
 </div>
 `);
